@@ -1,0 +1,100 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap');
+ 
+  body {
+    background-color: rgb(26, 25, 25);
+    background-image: url("./assets/logo.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: px;
+    padding: 20px;
+}
+
+
+
+.menu {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+}
+
+.menu li {
+    margin-right: 50px;
+}
+
+.menu li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.menu li a:hover {
+    color: #9932cc;
+}
+
+.conteudo {
+    padding: 50px;
+    text-align: justify;
+}
+
+.conteudo h1 {
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.conteudo h2 {
+    font-size: 28px;
+    margin-top: 0;
+    margin-bottom: 100px;
+}
+
+
+.conteudo p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-top: 0;
+    margin-bottom: 120px;
+}
+
+/* CSS do Contato */
+.form-container {
+    text-align: center;
+}
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 30px;
+  background-color: #f2f2f2;
+  font-size: 16px;
+  height: 10px; /* altura da caixa de texto */
+}
+button[type="submit"] {
+    background-color: #9932cc;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 15px;
+    font-size: 16px;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #c058f5;
+    cursor: pointer;
+  }
+  
