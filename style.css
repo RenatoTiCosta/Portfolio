@@ -1,33 +1,45 @@
 
-  @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap');
- 
+  
   body {
     background-color: rgb(26, 25, 25);
-    background-image: url("./assets/logo.png");
+    background-image: url("./assets/Logo.png");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center center;
     color: white;
     font-family: Arial, sans-serif;
-    margin: px;
     padding: 20px;
+    
 }
 
+/* Logo v Accenture a esquerda */
+.icon-v {
+    height: 35px;
+    width: 60px;
+    left: 10px;
+    top: 5px;
+    position: absolute;
 
+}
 
 .menu {
     display: flex;
     justify-content: center;
     padding: 20px;
+    
 }
 
 .menu ul {
     list-style: none;
     display: flex;
+    
 }
 
 .menu li {
+   
     margin-right: 50px;
+    
+    
 }
 
 .menu li a {
@@ -67,6 +79,29 @@
     margin-bottom: 120px;
 }
 
+/*footer - Link rede social*/
+.social {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .social a {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  .social a i {
+    font-size: 50px;
+    color: #333;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .social a:hover i {
+    color: #ffffff;
+  }
+  
+
 /* CSS do Contato */
 .form-container {
     text-align: center;
@@ -84,7 +119,7 @@ textarea {
   height: 10px; /* altura da caixa de texto */
 }
 button[type="submit"] {
-    background-color: #9932cc;
+    background-color: #000000;
     color: #fff;
     padding: 10px 20px;
     border: none;
@@ -96,5 +131,13 @@ button[type="submit"] {
   button[type="submit"]:hover {
     background-color: #c058f5;
     cursor: pointer;
+    
+  }
+  footer {
+    margin-top: 200px;
+    position: relative;
+    
+
+
   }
   
