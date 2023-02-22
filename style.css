@@ -55,7 +55,7 @@
 }
 
 .conteudo {
-    padding: 50px;
+   
     text-align: justify;
 }
 
@@ -75,8 +75,7 @@
 .conteudo p {
     font-size: 18px;
     line-height: 1.5;
-    margin-top: 0;
-    margin-bottom: 120px;
+   
 }
 
 /*footer - Link rede social*/
@@ -134,10 +133,15 @@ button[type="submit"] {
     
   }
   footer {
-    margin-top: 200px;
+    margin-top: 400px;
     position: relative;
     
-
-
+    
+  }
+  .assinatura p {   
+    position: relative;
+    margin-top: 0px;
+    text-align: center;
+    margin-bottom: 0px;
   }
   
