@@ -1,4 +1,0 @@
-##CURRICULO 
-###TESTANDO
-**Testando**
-
