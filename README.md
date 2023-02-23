@@ -1,7 +1,7 @@
-# Apresentação Accenture Brasil 
+## Apresentação Accenture Brasil 
 ## Apresentação para me candidatar a uma vaga de trabalho na empresa Accenture Brasil
 ---
-# HTML - index.html
+## HTML - index.html
 ---
 ## Títulos
 ```
@@ -61,7 +61,7 @@
 <div> = Divisória, usado para qualquer tipo de divisão de conteúdo que precisamos
 
 ```
-# CSS - style.css
+## CSS - style.css
 
 
 **Cores (Usado padrão RGB Hexadecimal = #000000)**
@@ -110,5 +110,5 @@ border = Adiciona uma borda no elemento
 
 border-radius = Tamanho de arredondamento da borda (em pixels)
 
-# Javascript - main.js
+## Javascript - main.js
 
